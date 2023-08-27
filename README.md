@@ -75,11 +75,17 @@ $ python3 'main.py'
 
 <br>
 
-<h1 align="center" id="Credits">
+<h1 align="center" id="credits">
   Credits
 </h1>
 
-## Hypixel.net for their api and Python.org for their amazing language.
+<p>Hypixel.net for their api and Python.org for their amazing language.</p>
+
+<h1 align="center" id="">
+  Extra notes
+</h1>
+
+<p>You can review the documentation file for more info</p>
 
 
 
