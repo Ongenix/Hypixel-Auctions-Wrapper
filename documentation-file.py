@@ -1,4 +1,4 @@
-from functions import Hypixel
+from auctions-wrapper import Hypixel
 from os import getenv
 
 def main():
