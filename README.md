@@ -16,6 +16,22 @@
 
 <br><br>
 
-<h1 id="features">Features</h1>
+<h1 align="center" id="features">
+  Features
+  <img src="https://github.com/Ongenix/Hypixel-Auctions-Wrapper/blob/main/carbon.png?raw=true">
+</h1>
+
+<br>
+
+<h1 align="center" id="how-to-use">
+  How To Use
+  in progress
+</h1>
+
+<h1 align="center" id="download">
+  Download
+  <img src="https://github.com/Ongenix/Hypixel-Auctions-Wrapper/blob/main/download-tutorial.png?raw=true">
+</h1>
+
 
 
