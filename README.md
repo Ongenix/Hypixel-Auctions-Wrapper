@@ -2,7 +2,6 @@
   <br>
   <a href="https://github.com/Ongenix/Hypixel-Auctions-Wrapper"><img src="https://github.com/Ongenix/Hypixel-Auctions-Wrapper/blob/main/Hypixel_Auctions_Wrapper.png?raw=true" alt="hypixel auctions wrapper"></a>
   <br>
-  <br>
   A simple to use wrapper for Hypixel built in Python
   <br>
 </h3>
@@ -42,8 +41,18 @@ substandard = x.substandard_price(context=ctx, item_number=1)
 
 <h1 align="center" id="download">
   Download
-  <img src="https://github.com/Ongenix/Hypixel-Auctions-Wrapper/blob/main/download-tutorial.png?raw=true">
 </h1>
+
+```bash
+# Download the repository
+$ git clone https://github.com/Ongenix/Hypixel-Auctions-Wrapper/
+# Go into the repository
+cd Hypixel-Auctions-Wrapper
+# Add enviroment variables
+$ export [variable_name]=[variable_value]
+# Import the wrapper and run your main file
+$ python3 'main.py'
+```
 
 
 
