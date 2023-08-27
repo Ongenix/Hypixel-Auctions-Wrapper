@@ -7,5 +7,12 @@
   <br>
 </h3>
 
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#download">Download</a> •
+  <a href="#credits">Credits</a>
+</p>
+
 
 
