@@ -1,5 +1,4 @@
 <div style="text-align: center;">
-# Hypixel Auctions Wrapper
 
 ![text](https://github.com/Ongenix/Hypixel-Auctions-Wrapper/blob/main/Hypixel_Auctions_Wrapper.png?raw=true "Banner")
 
