@@ -36,8 +36,27 @@ substandard = x.substandard_price(context=ctx, item_number=1)
 
 <h1 align="center" id="how-to-use">
   How To Use
-  in progress
 </h1>
+
+```python
+# Firstly, import the file
+from auctions-wrapper import Hypixel
+from os import getenv
+
+# Secondly, define the class (after setting your enviroment variables)
+hy = Hypixel(api_key=getenv('KEY'), uuid=getenv('UUID'))
+
+# Thirdly, use the decorator on top of a function.
+# You can include the item name (lowercase), Buy It Now (bin), Auctions and tiers
+@x.get_auctions(item_name='all', allow_bin=True, allow_auctions=False, allowed_tier='all')
+def auctions(ctx):
+  # You can find the possible combinations in the features section
+  names = x.get_names(context=ctx, lowercase=True)
+  print(names)
+
+```
+
+<br>
 
 <h1 align="center" id="download">
   Download
@@ -53,6 +72,14 @@ $ export [variable_name]=[variable_value]
 # Import the wrapper and run your main file
 $ python3 'main.py'
 ```
+
+<br>
+
+<h1 align="center" id="Credits">
+  Credits
+</h1>
+
+## Hypixel.net for their api and Python.org for their amazing language.
 
 
 
