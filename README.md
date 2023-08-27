@@ -18,8 +18,20 @@
 
 <h1 align="center" id="features">
   Features
-  <img src="https://github.com/Ongenix/Hypixel-Auctions-Wrapper/blob/main/carbon.png?raw=true">
 </h1>
+
+```python
+# Get auction ID's
+uuids = x.get_uuid(context=ctx)
+# Get auction prices
+prices = x.get_prices(context=ctx)
+# Get auction names
+names = x.get_names(context=ctx, lowercase=True)
+# Get auction tiers
+tiers = x.get_tiers(context=ctx)
+# Check if your item is substandard (cheaper)
+substandard = x.substandard_price(context=ctx, item_number=1)
+```
 
 <br>
 
